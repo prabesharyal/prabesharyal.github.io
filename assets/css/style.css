@@ -3,8 +3,8 @@
 # General
 --------------------------------------------------------------*/
 body {
-  background-color: #f5f5f5;
-  color: #4e4e4e;
+  background-color: #050D21;
+  color: #00FF00;
 }
 
 h1,
@@ -13,16 +13,16 @@ h3,
 h4,
 h5,
 h6 {
-  color: #1e1e1e;
+  color: #F53400;
 }
 
 a {
-  color: #1e1e1e;
+  color: #F53400;
   transition: all 0.5s ease-in-out;
 }
 
 a:hover {
-  color: #0078ff;
+  color: #FB0;
   text-decoration: none;
   transition: all 0.5s ease-in-out;
 }
@@ -32,15 +32,15 @@ a:hover {
 }
 
 .color-a {
-  color: #0078ff;
+  color: #FB0;
 }
 
 .color-d {
-  color: #f5f5f5;
+  color: #050D21;
 }
 
 .color-text-a {
-  color: #4e4e4e;
+  color: #00FF00;
 }
 
 .box-shadow, .paralax-mf, .service-box, .work-box, .card-blog {
@@ -84,7 +84,7 @@ a:hover {
 }
 
 .overlay-mf {
-  background-color: #0078ff;
+  background-color: #ffff;
 }
 
 .overlay-mf {
@@ -94,7 +94,7 @@ a:hover {
   padding: 0;
   height: 100%;
   width: 100%;
-  opacity: .7;
+  opacity: .5;
 }
 
 .paralax-mf {
@@ -129,7 +129,7 @@ a:hover {
 /*--/ Title s /--*/
 .title-s {
   font-weight: 600;
-  color: #1e1e1e;
+  color: #F53400;
   font-size: 1.1rem;
 }
 
@@ -145,13 +145,13 @@ a:hover {
 }
 
 .subtitle-a {
-  color: #4e4e4e;
+  color: #00FF00;
 }
 
 .line-mf {
   width: 40px;
   height: 5px;
-  background-color: #0078ff;
+  background-color: #FB0;
   margin: 0 auto;
 }
 
@@ -169,7 +169,7 @@ a:hover {
   content: '';
   position: absolute;
   height: 3px;
-  background-color: #0078ff;
+  background-color: #FB0;
   width: 100px;
   bottom: -12px;
 }
@@ -182,7 +182,7 @@ a:hover {
 .box-shadow-full {
   padding: 3rem 1.25rem;
   position: relative;
-  background-color: #fff;
+  background-color: #0D0044;
   margin-bottom: 3rem;
   z-index: 2;
   box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.06), 0 2px 5px 0 rgba(0, 0, 0, 0.2);
@@ -210,13 +210,13 @@ a:hover {
   border-radius: 50%;
   line-height: 1.4;
   margin: 0 15px 0 0;
-  box-shadow: 0 0 0 3px #0078ff;
+  box-shadow: 0 0 0 3px #FB0;
   transition: all 500ms ease;
 }
 
 .socials .ico-circle:hover {
-  background-color: #0078ff;
-  color: #fff;
+  background-color: #FB0;
+  color: #0D0044;
   box-shadow: 0 0 0 3px #cde1f8;
   transition: all 500ms ease;
 }
@@ -233,7 +233,7 @@ a:hover {
 }
 
 .list-ico span {
-  color: #0078ff;
+  color: #FB0;
   margin-right: 10px;
 }
 
@@ -246,7 +246,7 @@ a:hover {
   line-height: 1.55;
   margin: 0 auto;
   text-align: center;
-  box-shadow: 0 0 0 10px #0078ff;
+  box-shadow: 0 0 0 10px #FB0;
   display: block;
 }
 
@@ -291,12 +291,12 @@ a:hover {
   position: fixed;
   width: 42px;
   height: 42px;
-  background-color: #0078ff;
+  background-color: #FB0;
   opacity: .7;
   font-size: 1.6rem;
   line-height: 1.5;
   text-align: center;
-  color: #fff;
+  color: #0D0044;
   top: auto;
   left: auto;
   right: 30px;
@@ -309,8 +309,8 @@ a:hover {
 .back-to-top {
   position: fixed;
   display: none;
-  background: #0078ff;
-  color: #fff;
+  background: #FB0;
+  color: #0D0044;
   width: 44px;
   height: 44px;
   text-align: center;
@@ -325,7 +325,7 @@ a:hover {
 
 .back-to-top i {
   padding-top: 12px;
-  color: #fff;
+  color: #0D0044;
 }
 
 @media (max-width: 768px) {
@@ -343,7 +343,7 @@ a:hover {
   bottom: 0;
   z-index: 9999;
   overflow: hidden;
-  background: #fff;
+  background: #0D0044;
 }
 
 #preloader:before {
@@ -352,7 +352,7 @@ a:hover {
   top: calc(50% - 30px);
   left: calc(50% - 30px);
   border: 6px solid #f2f2f2;
-  border-top: 6px solid #0078ff;
+  border-top: 6px solid #FB0;
   border-radius: 50%;
   width: 60px;
   height: 60px;
@@ -401,13 +401,13 @@ a:hover {
 
 .button:hover {
   background-color: #0062d3;
-  color: #fff;
+  color: #0D0044;
   transition: all 500ms ease;
 }
 
 .button-a {
-  background-color: #0078ff;
-  color: #fff;
+  background-color: #FB0;
+  color: #0D0044;
   border-color: #cde1f8;
 }
 
@@ -511,36 +511,36 @@ a:hover {
 
 .navbar-b.navbar-reduce {
   transition: all .5s ease-in-out;
-  background-color: #fff;
+  background-color: #0D0044;
   padding-top: 15px;
   padding-bottom: 15px;
 }
 
 .navbar-b.navbar-reduce .nav-link {
-  color: #0078ff;
+  color: #FB0;
 }
 
 .navbar-b.navbar-reduce .nav-link:before {
-  background-color: #0078ff;
+  background-color: #FB0;
 }
 
 .navbar-b.navbar-reduce .nav-link:hover {
-  color: #0078ff;
+  color: #FB0;
 }
 
 .navbar-b.navbar-reduce .show > .nav-link,
 .navbar-b.navbar-reduce .active > .nav-link,
 .navbar-b.navbar-reduce .nav-link.show,
 .navbar-b.navbar-reduce .nav-link.active {
-  color: #0078ff;
+  color: #FB0;
 }
 
 .navbar-b.navbar-reduce .navbar-brand {
-  color: #0078ff;
+  color: #FB0;
 }
 
 .navbar-b.navbar-reduce .navbar-toggler span {
-  background-color: #1B1B1B;
+  background-color: #E91313;
 }
 
 .navbar-b .navbar-brand {
@@ -567,13 +567,13 @@ a:hover {
 }
 
 .navbar-b .dropdown-menu .dropdown-item:hover {
-  background-color: #0078ff;
-  color: #fff;
+  background-color: #FB0;
+  color: #0D0044;
   transition: all 500ms ease;
 }
 
 .navbar-b .dropdown-menu .dropdown-item.active {
-  background-color: #0078ff;
+  background-color: #FB0;
 }
 
 /*--/ Hamburger Navbar /--*/
@@ -588,7 +588,7 @@ a:hover {
 
 .navbar-toggler span {
   display: block;
-  background-color: #fff;
+  background-color: #0D0044;
   height: 3px;
   width: 25px;
   margin-top: 4px;
@@ -698,7 +698,7 @@ a:hover {
 
 .intro-single .breadcrumb {
   background-color: transparent;
-  color: #0078ff;
+  color: #FB0;
 }
 
 .intro-single .breadcrumb .breadcrumb-item:before {
@@ -710,7 +710,7 @@ a:hover {
 }
 
 .intro-single .breadcrumb a {
-  color: #fff;
+  color: #0D0044;
 }
 
 /*--------------------------------------------------------------
@@ -737,7 +737,7 @@ a:hover {
 }
 
 .skill-mf span {
-  color: #4e4e4e;
+  color: #00FF00;
 }
 
 .skill-mf .progress {
@@ -749,14 +749,14 @@ a:hover {
 
 .skill-mf .progress .progress-bar {
   height: .7rem;
-  background-color: #0078ff;
+  background-color: #FB0;
 }
 
 /*--------------------------------------------------------------
 # Services
 --------------------------------------------------------------*/
 .service-box {
-  background-color: #fff;
+  background-color: #0D0044;
   padding: 2.5rem 1.3rem;
   border-radius: 1rem;
   margin-bottom: 3rem;
@@ -764,14 +764,14 @@ a:hover {
 
 .service-box:hover .ico-circle {
   transition: all 500ms ease;
-  color: #fff;
-  background-color: #0078ff;
+  color: #0D0044;
+  background-color: #FB0;
   box-shadow: 0 0 0 10px #cde1f8;
 }
 
 .service-box .service-ico {
   margin-bottom: 1rem;
-  color: #1e1e1e;
+  color: #F53400;
 }
 
 .service-box .ico-circle {
@@ -787,14 +787,14 @@ a:hover {
 }
 
 .service-box .s-description {
-  color: #4e4e4e;
+  color: #00FF00;
 }
 
 /*--------------------------------------------------------------
 # Counter
 --------------------------------------------------------------*/
 .counter-box {
-  color: #fff;
+  color: #000000;
   text-align: center;
 }
 
@@ -812,7 +812,7 @@ a:hover {
   height: 60px;
   width: 60px;
   line-height: 1.8;
-  box-shadow: 0 0 0 10px #cde1f8;
+  box-shadow: 0 0 0 10px #0D0044;
 }
 
 .counter-num .counter {
@@ -820,181 +820,6 @@ a:hover {
   margin-bottom: 0;
 }
 
-
-
-
-/*--------------------------------------------------------------
-# Contact
---------------------------------------------------------------*/
-.footer-paralax {
-  padding: 4rem 0 0 0;
-}
-
-.contact-mf {
-  margin-top: 4rem;
-}
-
-@media (min-width: 767px) {
-  .contact-mf .box-pl2 {
-    margin-top: 3rem;
-    padding-left: 0rem;
-  }
-}
-
-.php-email-form .validate {
-  display: none;
-  color: red;
-  margin: 0 0 15px 0;
-  font-weight: 400;
-  font-size: 13px;
-}
-
-.php-email-form .error-message {
-  display: none;
-  color: #fff;
-  background: #ed3c0d;
-  text-align: center;
-  padding: 15px;
-  font-weight: 600;
-}
-
-.php-email-form .sent-message {
-  display: none;
-  color: #fff;
-  background: #18d26e;
-  text-align: center;
-  padding: 15px;
-  font-weight: 600;
-}
-
-.php-email-form .loading {
-  display: none;
-  background: #fff;
-  text-align: center;
-  padding: 15px;
-}
-
-.php-email-form .loading:before {
-  content: "";
-  display: inline-block;
-  border-radius: 50%;
-  width: 24px;
-  height: 24px;
-  margin: 0 10px -6px 0;
-  border: 3px solid #18d26e;
-  border-top-color: #eee;
-  -webkit-animation: animate-loading 1s linear infinite;
-  animation: animate-loading 1s linear infinite;
-}
-
-.php-email-form input, .php-email-form textarea {
-  border-radius: 0;
-  box-shadow: none;
-  font-size: 14px;
-}
-
-.php-email-form input::focus, .php-email-form textarea::focus {
-  background-color: #0078ff;
-}
-
-.php-email-form input {
-  padding: 20px 15px;
-}
-
-.php-email-form textarea {
-  padding: 12px 15px;
-  margin-bottom: 0;
-}
-
-.php-email-form button[type="submit"] {
-  background: #0078ff;
-  border: 0;
-  padding: 10px 24px;
-  color: #fff;
-  transition: 0.4s;
-}
-
-.php-email-form button[type="submit"]:hover {
-  background: #3393ff;
-}
-
-@-webkit-keyframes animate-loading {
-  0% {
-    transform: rotate(0deg);
-  }
-  100% {
-    transform: rotate(360deg);
-  }
-}
-
-@keyframes animate-loading {
-  0% {
-    transform: rotate(0deg);
-  }
-  100% {
-    transform: rotate(360deg);
-  }
-}
-
-/*--------------------------------------------------------------
-# Blog
---------------------------------------------------------------*/
-@media (min-width: 767px) {
-  .card-blog {
-    margin-bottom: 3rem;
-  }
-}
-
-.card-blog .card-body {
-  position: relative;
-}
-
-.card-blog .card-category-box {
-  position: absolute;
-  text-align: center;
-  top: -16px;
-  left: 15px;
-  right: 15px;
-  line-height: 25px;
-  overflow: hidden;
-}
-
-.card-blog .card-category {
-  display: inline-block;
-  color: #fff;
-  padding: 0 15px 5px;
-  overflow: hidden;
-  background-color: #0078ff;
-  border-radius: 4px;
-}
-
-.card-blog .card-category .category {
-  color: #fff;
-  display: inline-block;
-  text-transform: uppercase;
-  font-size: .7rem;
-  letter-spacing: .1px;
-  margin-bottom: 0;
-}
-
-.card-blog .card-title {
-  font-size: 1.3rem;
-  margin-top: .6rem;
-}
-
-.card-blog .card-description {
-  color: #4e4e4e;
-}
-
-.card-blog .post-author {
-  display: inline-block;
-}
-
-.card-blog .post-date {
-  color: #4e4e4e;
-  display: inline-block;
-  float: right;
-}
 
 /*--------------------------------------------------------------
 # Blog Single
@@ -1004,7 +829,7 @@ a:hover {
 .box-comments,
 .widget-sidebar {
   padding: 2rem;
-  background-color: #fff;
+  background-color: #0D0044;
   margin-bottom: 3rem;
 }
 
@@ -1032,7 +857,7 @@ a:hover {
 }
 
 .blog-wrapper .post-meta ul {
-  border-left: 4px solid #0078ff;
+  border-left: 4px solid #FB0;
   margin-top: 1rem;
 }
 
@@ -1042,15 +867,15 @@ a:hover {
 }
 
 .blog-wrapper .post-meta ul a {
-  color: #0078ff;
+  color: #FB0;
 }
 
 .blog-wrapper .post-meta ul span {
-  color: #1e1e1e;
+  color: #F53400;
 }
 
 .blog-wrapper .blockquote {
-  border-left: 4px solid #0078ff;
+  border-left: 4px solid #FB0;
   padding: 18px;
   font-style: italic;
 }
@@ -1087,11 +912,11 @@ a:hover {
 }
 
 .box-comments .list-comments a {
-  color: #0078ff;
+  color: #FB0;
 }
 
 .box-comments .list-comments span {
-  color: #1e1e1e;
+  color: #F53400;
   font-style: italic;
 }
 
@@ -1103,7 +928,7 @@ a:hover {
 .widget-sidebar .sidebar-title {
   font-size: 1.6rem;
   font-weight: 600;
-  border-left: 5px solid #0078ff;
+  border-left: 5px solid #FB0;
   padding-left: 15px;
   text-transform: uppercase;
   margin-bottom: 1.5rem;
@@ -1120,19 +945,19 @@ a:hover {
   width: 10px;
   height: 1px;
   left: 0;
-  background-color: #0078ff;
+  background-color: #FB0;
   top: 20px;
 }
 
 .sidebar-search input {
-  background-color: #fff;
+  background-color: #0D0044;
   border-radius: 0;
   transition: all 0.5s ease-in-out;
 }
 
 .sidebar-search .btn-search {
-  background-color: #0078ff;
-  border-color: #0078ff;
+  background-color: #FB0;
+  border-color: #FB0;
   border-radius: 0;
   padding-left: 20px;
   padding-right: 20px;
@@ -1140,12 +965,12 @@ a:hover {
 
 .widget-tags ul li {
   display: inline-block;
-  background-color: #0078ff;
+  background-color: #FB0;
   padding: .2rem .6rem;
   margin-bottom: .5rem;
   border-radius: 15px;
 }
 
 .widget-tags ul li a {
-  color: #fff;
+  color: #0D0044;
 }
