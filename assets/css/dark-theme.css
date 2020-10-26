@@ -27,6 +27,11 @@ a:hover {
   transition: all 0.5s ease-in-out;
 }
 
+.a-contact {
+  color: #09ff00;
+  transition: all 0.5s ease-in-out;
+}
+
 .a-ico {
   color: #F53400;
   transition: all 0.5s ease-in-out;
